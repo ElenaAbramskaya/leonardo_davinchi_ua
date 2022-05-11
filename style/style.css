@@ -1360,10 +1360,10 @@
                                                 height: 147px;
                                                 border-radius: 10px;
                                             }
-                                            .luvr,
-                                            .ermitag {
-                                                margin-top: 0px;
+                                            .luvr {
+                                                margin-top: 20px;
                                                 margin-left: 0px;
+                                                margin-right: 10px;
                                             }
                                             #museums {
                                                 margin-top: 30px;
@@ -1376,7 +1376,6 @@
                                             .museum-title {
                                                 font-size: 23px;
                                                 font-weight: bold;
-                                                width: 300px;
                                                 margin-top: 30px;
                                             }
                                             .museum-description {
@@ -1386,16 +1385,10 @@
                                             }
                                             .franch-museum {
                                                 display: flex;
+                                                flex-direction: column;
                                                 align-items: center;
                                                 margin-left: 0;
                                                 width: 480px;
-                                            }
-                                            .russian-museum {
-                                                display: flex;
-                                                align-items: center;
-                                                margin-left: 0;
-                                                width: 480px;
-                                                margin-top: 30px;
                                             }
                                             #famous-pictures {
                                                 display: flex;
