@@ -373,12 +373,14 @@
                                         #museums {
                                             margin-top: 130px;
                                             margin-left: 90px;
-                                            margin-right: 110px;
+                                            margin-right: 100px;
                                         }
                                         
                                         .museum-exhibitions {
                                             display: flex;
+                                            flex-direction: column;
                                             color: #7e8dc6;
+                                            font-weight: bold;
                                         }
                                         
                                         .museum-exhibitions img {
@@ -389,11 +391,7 @@
                                         
                                         .luvr {
                                             margin-top: 21px;
-                                        }
-                                        
-                                        .ermitag {
-                                            margin-left: 17px;
-                                            margin-top: 21px;
+                                            margin-left: 50px;
                                         }
                                         
                                         .museum-title {
@@ -406,36 +404,21 @@
                                             font-weight: bold;
                                             font-size: 16px;
                                             width: 590px;
+                                            line-height: 25px;
+                                            margin-right: 10px;
                                         }
                                         
                                         .franch-museum {
                                             display: flex;
-                                            flex-direction: column;
+                                            margin-top: 20px;
                                         }
                                         
                                         .franch-museum img {
                                             width: 580px;
                                         }
                                         
-                                        .franch-museum>a {
-                                            margin-top: 10px;
-                                            margin-left: 20px;
-                                            font-weight: bold;
-                                            color: #551A8B;
-                                            font-size: 15px;
-                                        }
-                                        
-                                        .russian-museum {
+                                        .museum-exhibitions a {
                                             display: flex;
-                                            flex-direction: column;
-                                            margin-left: 50px;
-                                        }
-                                        
-                                        .russian-museum>a {
-                                            margin-top: 10px;
-                                            margin-left: 20px;
-                                            color: #551A8B;
-                                            font-weight: bold;
                                             font-size: 15px;
                                         }
                                         /*famous-pictures page*/
@@ -544,7 +527,7 @@
                                         }
                                         
                                         .third-picture-title img {
-                                            margin-top: 20px;
+                                            margin-top: 15px;
                                         }
                                         
                                         .third-picture-title {
