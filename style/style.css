@@ -1319,23 +1319,27 @@
                                                 font-size: 22px;
                                                 padding-top: 10px;
                                                 font-weight: bold;
-                                                width: 200px;
+                                                width: 300px;
                                                 margin-left: 100px;
                                                 margin-right: 100px;
                                             }
                                             .chronology-paintings li {
-                                                width: 290px;
+                                                width: 300px;
                                                 margin-left: 30px;
                                                 font-size: 15px;
                                             }
                                             .chronology {
                                                 width: 300px;
                                                 margin-left: 0;
+                                                flex-direction: column;
                                             }
                                             .chronology-title-description {
                                                 text-align: center;
                                                 color: #876d89;
                                                 font-size: 16px;
+                                            }
+                                            .picture-link {
+                                                margin-left: 0;
                                             }
                                             .link-title {
                                                 display: flex;
@@ -1345,6 +1349,7 @@
                                                 font-size: 14px;
                                                 margin-right: 0;
                                                 width: 300px;
+                                                margin-top: 0;
                                             }
                                             .link-title>a {
                                                 font-size: 14px;
@@ -1563,7 +1568,8 @@
                                                 display: flex;
                                                 flex-direction: column;
                                                 align-items: center;
-                                                width: 300px;
+                                                width: 280px;
+                                                margin-left: 0;
                                             }
                                             .our-feedback {
                                                 width: 480px;
@@ -1616,6 +1622,8 @@
                                             }
                                             .text-sign {
                                                 margin-left: 0;
+                                                width: 280px;
+                                                font-size: 17px;
                                             }
                                             .text {
                                                 margin-left: 0;
