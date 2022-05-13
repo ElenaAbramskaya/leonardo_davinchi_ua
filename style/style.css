@@ -420,6 +420,8 @@
                                         
                                         .museum-exhibitions a {
                                             display: flex;
+                                            color: #551A8B;
+                                            font-weight: bold;
                                             font-size: 15px;
                                         }
                                         /*famous-pictures page*/
@@ -1137,8 +1139,8 @@
                                             .ic-menu {
                                                 visibility: visible;
                                                 display: flex;
-                                                justify-content: center;
                                                 align-items: center;
+                                                width: 220px;
                                                 color: #7e8dc6;
                                                 font-size: 20px;
                                                 padding-top: 40px;
@@ -1153,8 +1155,9 @@
                                                 display: flex;
                                                 background-color: #f8f4eb;
                                                 align-items: flex-start;
-                                                height: 290px;
+                                                height: 300px;
                                                 flex-grow: 1;
+                                                margin-left: 12px;
                                                 display: none;
                                             }
                                             .menu-list-name {
@@ -1273,7 +1276,7 @@
                                                 align-items: center;
                                             }
                                             .links a {
-                                                font-size: 12px;
+                                                font-size: 15px;
                                                 text-align: left;
                                                 margin-left: 0;
                                                 padding-right: 40px;
@@ -1353,7 +1356,7 @@
                                                 margin-top: 0;
                                             }
                                             .link-title>a {
-                                                font-size: 14px;
+                                                font-size: 15px;
                                                 text-align: center;
                                             }
                                             .museum-exhibitions {
@@ -1388,6 +1391,7 @@
                                                 font-weight: bold;
                                                 font-size: 16px;
                                                 width: 300px;
+                                                margin-right: 0;
                                             }
                                             .franch-museum {
                                                 display: flex;
