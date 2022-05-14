@@ -228,7 +228,6 @@
                                             display: flex;
                                             justify-content: space-around;
                                             width: 700px;
-                                            margin-top: 20px;
                                         }
                                         
                                         .video-record {
@@ -243,7 +242,7 @@
                                             text-align: center;
                                             font-weight: bold;
                                             margin-top: 20px;
-                                            margin-bottom: 50px;
+                                            margin-bottom: 60px;
                                         }
                                         /* biography-page */
                                         
