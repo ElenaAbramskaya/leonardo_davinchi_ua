@@ -306,7 +306,7 @@ function showText() {
 
 
 
-    alert("Ваш отзыв принят");
+    alert("Ваш відгук прийнятий і буде відображений на сайті після перевірки модератора");
 
     user.innerText = `${username.value} ${surname.value}`;
     author_text.innerText = text.value;
