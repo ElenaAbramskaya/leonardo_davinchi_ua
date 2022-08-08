@@ -293,7 +293,6 @@
                                             width: 700px;
                                             font-size: 17px;
                                             line-height: 35px;
-                                            text-indent: 40px;
                                             text-align: justify;
                                             font-weight: bold;
                                             color: #7e8dc6;
@@ -302,6 +301,7 @@
                                         .links {
                                             display: flex;
                                             flex-direction: column;
+                                            align-items: center;
                                         }
                                         
                                         .links a {
@@ -1270,6 +1270,8 @@
                                             }
                                             .biography-information p {
                                                 width: 300px;
+                                                text-indent: 0;
+                                                text-align: left;
                                             }
                                             .biography-information {
                                                 margin: 0 auto;
@@ -1291,7 +1293,6 @@
                                                 font-size: 15px;
                                                 text-align: left;
                                                 margin-left: 0;
-                                                padding-right: 40px;
                                             }
                                             #video {
                                                 width: 480px;
